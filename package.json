@@ -1,0 +1,28 @@
+{
+  "name": "dvd-pricing-calculator",
+  "version": "1.0.0",
+  "description": "Calculator for Back to the Future DVD pricing with discount rules",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "pricing",
+    "calculator",
+    "dvd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.10.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2"
+  }
+}
